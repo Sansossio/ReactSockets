@@ -1,0 +1,41 @@
+{
+  "name": "reactsockets",
+  "version": "0.1.0",
+  "main": "index.js",
+  "description": "Manage sockets connection easily, is how a orm but of sockets :)",
+  "dependencies": {
+    "camelcase": "^4.1.0",
+    "react": "^16.2.0",
+    "socketio": "^1.0.0"
+  },
+  "scripts": {},
+  "keywords": [
+    "websockets",
+    "socketio",
+    "tcp",
+    "react",
+    "react-component",
+    "storage",
+    "sockets",
+    "socket",
+    "realtime"
+  ],
+  "author": {
+    "name": "Julio Sansossio",
+    "email": "juliosansossio@gmail.com",
+    "url": "https://github.com/Sansossio"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sansossio/ReactSockets/issues"
+  },
+  "homepage": "https://github.com/Sansossio/ReactSockets#readme",
+  "devDependencies": {
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0"
+  }
+}
