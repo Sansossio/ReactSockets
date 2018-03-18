@@ -117,11 +117,7 @@ With a object you are define type of keys, type are:
 # Code example
 
 WebSockets
-```
-https://github.com/Sansossio/ReactSockets-Chat
-```
+<https://github.com/Sansossio/ReactSockets-Chat>
 
 SocketIO
-```
-https://github.com/Sansossio/ReactSockets-Chat-IO
-```
+<https://github.com/Sansossio/ReactSockets-Chat-IO>
