@@ -56,10 +56,8 @@ export default ChatInput;
 
 # SocketIO Implementation
 ##### Required params
-- Protocol 
-    - ws or wss
-- Host / Ip
-- Port
+- Url
+  - Server url
 
 ##### Config params
 - KeysTrust
