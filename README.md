@@ -3,7 +3,7 @@ Manage sockets connection easily, is how a orm but of sockets :)
 
 ## How to install?
 ```sh
-npm install --save https://github.com/Sansossio/ReactSockets
+npm install --save reactsockets
 ```
 
 ### Accepts protocols
@@ -116,7 +116,12 @@ With a object you are define type of keys, type are:
         
 # Code example
 
+WebSockets
 ```
 https://github.com/Sansossio/ReactSockets-Chat
 ```
-    
+
+SocketIO
+```
+https://github.com/Sansossio/ReactSockets-Chat-IO
+```
