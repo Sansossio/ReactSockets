@@ -1,5 +1,5 @@
 # React-Sockets
-Manage sockets connection easily, is how a orm but of sockets :)
+Manage sockets connection easily with the react power, is how a orm but of sockets :)
 
 ## How to install?
 ```sh
