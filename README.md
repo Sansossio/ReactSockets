@@ -55,7 +55,45 @@ export default ChatInput;
 ```
 
 # SocketIO Implementation
-Develop phase...
+##### Required params
+- Protocol 
+    - ws or wss
+- Host / Ip
+- Port
+
+##### Config params
+- KeysTrust
+    - List of keys that are used to decode the message and update the react state
+
+### Example
+```js
+// Imports
+import React from 'react';
+import { SocketIO } from 'reactsockets';
+
+class ChatInput extends SocketIO {
+  constructor(props) {
+    // Parent
+    super(props);
+    // State
+    this.state = {
+      message: '',
+    };
+    // Sockets config
+    this.url = 'http://localhost:8080';
+    // KeysTrust
+    this.setKeysTrust([]);
+  }
+  // Render component
+  render() {
+    return (
+      <div id="chat-input">{this.state.message}</div>
+    );
+  }
+}
+
+export default ChatInput;
+```
 
 # KeysTrust
 The parametter 'keytrust' must a be an array of strings or array strings/objects
