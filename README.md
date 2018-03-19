@@ -2,7 +2,7 @@
 Manage sockets connection easily with the react power, is how a orm but of sockets :)
 
 ## General Schema
-![](public/reactsockets.jpeg?raw=true)
+![public/reactsockets.jpeg?raw=true](public/reactsockets.jpeg?raw=true)
 
 ## How to install?
 ```sh
